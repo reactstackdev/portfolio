@@ -13,7 +13,7 @@ export default function CardNav() {
   return (
     <>
       {/* Desktop Navigation */}
-      <NavigationMenu.Root className="fixed z-50 -translate-x-1/2 top-4 left-1/2 hidden lg:block">
+      <NavigationMenu.Root className="fixed z-50 hidden -translate-x-1/2 top-4 left-1/2 lg:block">
         <NavigationMenu.List className="flex items-center gap-2 px-4 py-2 min-h-[56px] border shadow-xl rounded-2xl bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-slate-200/60 dark:border-slate-700/60">
         
         {navigation.map((nav) => (
@@ -43,7 +43,7 @@ export default function CardNav() {
 
         <NavigationMenu.Item>
           <NavigationMenu.Link
-            href="../../../public/AltaCV_Template.pdf"
+            href="/AltaCV_Template.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 text-sm font-medium transition-colors rounded-xl text-slate-800 dark:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-slate-700/60"
@@ -74,14 +74,14 @@ export default function CardNav() {
 
       {/* Mobile Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-[60] lg:hidden">
-        <div className="flex items-center justify-between px-4 py-3 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/60 dark:border-slate-700/60 shadow-lg">
+        <div className="flex items-center justify-between px-4 py-3 border-b shadow-lg bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-slate-200/60 dark:border-slate-700/60">
           <Link to="/" className="flex items-center gap-2">
             <img
               src={logo}
               alt="Inicio"
               className="w-10 h-10 rounded-full"
             />
-            <span className="font-semibold text-slate-900 dark:text-slate-100">Portfolio</span>
+            {/* <span className="font-semibold text-slate-900 dark:text-slate-100">Portfolio</span> */}
           </Link>
           
           <button
@@ -103,7 +103,7 @@ export default function CardNav() {
             <div className="px-4 py-4 space-y-4">
               {navigation.map((nav) => (
                 <div key={nav.label} className="space-y-2">
-                  <h3 className="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
+                  <h3 className="text-sm font-semibold tracking-wider uppercase text-slate-500 dark:text-slate-400">
                     {nav.label}
                   </h3>
                   <div className="space-y-1">
@@ -137,7 +137,7 @@ export default function CardNav() {
                   GitHub
                 </a>
                 <a
-                  href="../../../public/AltaCV_Template.pdf"
+                  href="/AltaCV_Template.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 px-4 py-3 text-sm font-medium text-center transition-colors rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-100 hover:bg-slate-200 dark:hover:bg-slate-700"
