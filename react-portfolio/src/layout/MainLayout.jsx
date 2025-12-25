@@ -6,11 +6,11 @@ export default function MainLayout({ children }) {
     <div className="min-h-screen bg-slate-300 dark:bg-slate-900">
       <CardNav />
 
-      <main className="pt-20">
+      <main className="pt-16 lg:pt-20">
         {children}
       </main>
 
-      <div className="fixed z-50 top-6 right-6">
+      <div className="fixed z-50 top-4 right-4 lg:top-6 lg:right-6">
         <ThemeToggleButton />
       </div>
     </div>
