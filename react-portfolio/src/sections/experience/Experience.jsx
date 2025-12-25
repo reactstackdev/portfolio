@@ -2,9 +2,75 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="min-h-screen px-6 scroll-mt-32"
+      className="max-w-3xl px-6 pt-24 pb-20 mx-auto scroll-mt-32"
     >
-      <h2 className="text-3xl font-bold">Experiencia</h2>
+      {/* Title */}
+      <div className="mb-10">
+        <span className="block mb-2 text-xl font-bold tracking-wide text-indigo-900 uppercase dark:text-indigo-300">
+          Experiencia
+        </span>
+      </div>
+
+      {/* Content */}
+      <div className="space-y-8 text-lg text-slate-700 dark:text-slate-300">
+        
+        <div>
+          <h3 className="font-semibold text-slate-900 dark:text-slate-100">
+            Programador Full Stack · Soluciones Smart de Territorio
+          </h3>
+          <p className="mb-2 text-sm text-slate-500">
+            Septiembre 2025 – Actualidad · León
+          </p>
+          <p>
+            Desarrollo de aplicaciones web participando tanto en tareas de{" "}
+            <strong>frontend</strong> como de <strong>backend</strong>, trabajando en
+            equipo y aplicando buenas prácticas de desarrollo en entornos reales.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="font-semibold text-slate-900 dark:text-slate-100">
+            Prácticas Universitarias · CDS (HP Enterprise Company)
+          </h3>
+          <p className="mb-2 text-sm text-slate-500">
+            Octubre 2024 – Enero 2025 · León (Híbrido)
+          </p>
+          <p>
+            Desarrollo de aplicaciones web utilizando <strong>Next.js</strong>,
+            adquiriendo experiencia práctica en proyectos profesionales y
+            flujos de trabajo reales.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="font-semibold text-slate-900 dark:text-slate-100">
+            Prácticas Universitarias · Certitec
+          </h3>
+          <p className="mb-2 text-sm text-slate-500">
+            Julio 2024 – Septiembre 2024 · Astorga
+          </p>
+          <p>
+            Desarrollo de soluciones de programación y trabajo con{" "}
+            <strong>bases de datos SQL</strong>, reforzando la lógica y el enfoque
+            práctico del desarrollo.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="font-semibold text-slate-900 dark:text-slate-100">
+            Técnico · Electro Garpa S.L.
+          </h3>
+          <p className="mb-2 text-sm text-slate-500">
+            Julio 2022 – Septiembre 2025 · Astorga
+          </p>
+          <p>
+            Experiencia clave en <strong>organización</strong>,{" "}
+            <strong>responsabilidad</strong> y resolución de problemas, valores
+            que aplico directamente en el desarrollo de software.
+          </p>
+        </div>
+
+      </div>
     </section>
   );
 }

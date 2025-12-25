@@ -28,12 +28,23 @@ export default function CardNav() {
 
         <NavigationMenu.Item>
           <NavigationMenu.Link
-            href="https://github.com/tuusuario"
+            href="https://github.com/reactstackdev"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 text-sm font-medium transition-colors rounded-xl text-slate-800 dark:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-slate-700/60"
           >
             GitHub
+          </NavigationMenu.Link>
+        </NavigationMenu.Item>
+
+        <NavigationMenu.Item>
+          <NavigationMenu.Link
+            href="../../../public/AltaCV_Template.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 text-sm font-medium transition-colors rounded-xl text-slate-800 dark:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-slate-700/60"
+          >
+            CV
           </NavigationMenu.Link>
         </NavigationMenu.Item>
 

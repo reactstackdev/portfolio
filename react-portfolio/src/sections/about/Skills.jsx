@@ -2,9 +2,47 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="min-h-screen px-6 scroll-mt-32"
+      className="max-w-3xl px-6 pt-24 pb-20 mx-auto scroll-mt-32"
     >
-      <h2 className="text-3xl font-bold">Skills</h2>
+      {/* Title */}
+      <div className="mb-10">
+        <span className="block mb-2 text-xl font-bold tracking-wide text-indigo-900 uppercase dark:text-indigo-300">
+          Skills
+        </span>
+      </div>
+
+      {/* Content */}
+      <div className="space-y-6 text-lg text-slate-700 dark:text-slate-300">
+        <p>
+          Estas son las principales <strong>habilidades técnicas y profesionales</strong> que
+          he desarrollado a lo largo de mi formación y experiencia profesional.
+        </p>
+
+        <p>
+          En el ámbito <strong>frontend</strong>, trabajo principalmente con{" "}
+          <strong>React</strong>, creando interfaces limpias,
+          reutilizables y centradas en la experiencia de usuario.
+        </p>
+
+        <p>
+          A nivel de <strong>backend</strong>, tengo experiencia desarrollando lógica de
+          negocio y APIs con <strong>Node.js</strong>, así como trabajando con{" "}
+          <strong>bases de datos SQL</strong>.
+        </p>
+
+        <p>
+          Además, he trabajado con otros lenguajes y tecnologías como{" "}
+          <strong>JavaScript</strong>, <strong>Java</strong>, <strong>Python</strong>,{" "}
+          <strong>Laravel</strong>, <strong>Flutter</strong> y <strong>Kotlin</strong>,
+          lo que me permite adaptarme con facilidad a distintos entornos.
+        </p>
+
+        <p>
+          En el plano profesional, destaco por mi <strong>responsabilidad</strong>, el{" "}
+          <strong>trabajo en equipo</strong>, el <strong>aprendizaje continuo</strong> y
+          el cumplimiento de plazos priorizando siempre la calidad del código.
+        </p>
+      </div>
     </section>
   );
 }
