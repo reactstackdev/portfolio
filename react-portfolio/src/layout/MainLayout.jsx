@@ -10,7 +10,7 @@ export default function MainLayout({ children }) {
         {children}
       </main>
 
-      <div className="fixed z-50 top-4 right-4 lg:top-6 lg:right-6">
+      <div className="fixed z-40 bottom-6 right-4 lg:top-6 lg:right-6 lg:bottom-auto">
         <ThemeToggleButton />
       </div>
     </div>

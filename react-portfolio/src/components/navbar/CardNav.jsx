@@ -73,8 +73,8 @@ export default function CardNav() {
       </NavigationMenu.Root>
 
       {/* Mobile Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 lg:hidden">
-        <div className="flex items-center justify-between px-4 py-3 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200/60 dark:border-slate-700/60">
+      <nav className="fixed top-0 left-0 right-0 z-[60] lg:hidden">
+        <div className="flex items-center justify-between px-4 py-3 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/60 dark:border-slate-700/60 shadow-lg">
           <Link to="/" className="flex items-center gap-2">
             <img
               src={logo}
@@ -99,7 +99,7 @@ export default function CardNav() {
 
         {/* Mobile Menu Dropdown */}
         {mobileMenuOpen && (
-          <div className="absolute top-full left-0 right-0 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200/60 dark:border-slate-700/60 shadow-xl">
+          <div className="absolute top-full left-0 right-0 bg-white/98 dark:bg-slate-900/98 backdrop-blur-md border-b border-slate-200/60 dark:border-slate-700/60 shadow-2xl max-h-[calc(100vh-64px)] overflow-y-auto">
             <div className="px-4 py-4 space-y-4">
               {navigation.map((nav) => (
                 <div key={nav.label} className="space-y-2">
