@@ -14,7 +14,7 @@ export default function Projects() {
       index="04"
       eyebrow="Proyectos destacados"
       title="Trabajo real, no demos."
-      description="Desde TutorTrack, mi plataforma SaaS construida de cero con FastAPI, Stripe e IA, hasta iniciativas profesionales como backend y full stack. Cada proyecto incluye contexto, stack y aporte concreto."
+      description="CodeCoach: mi plataforma de gestión de clases y ERP de alumnos para la enseñanza de programación, construida con Spring Boot, React y un servicio de IA independiente. Backend, arquitectura y decisiones técnicas, con contexto y stack."
     >
       <Rule />
       {projects.map((p, i) => (
