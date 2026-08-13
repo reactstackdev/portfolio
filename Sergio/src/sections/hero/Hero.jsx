@@ -32,7 +32,7 @@ export default function Hero() {
               <span className="relative inline-flex w-1.5 h-1.5 bg-accent">
                 <span className="absolute inset-0 bg-accent caret" />
               </span>
-              [ Disponible para nuevas oportunidades ]
+              [ Backend developer ]
             </Reveal>
 
             <Reveal
